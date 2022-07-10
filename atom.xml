@@ -6,7 +6,7 @@
   <link href="https://shenlingyu.cn/atom.xml" rel="self"/>
   
   <link href="https://shenlingyu.cn/"/>
-  <updated>2022-07-09T19:50:02.734Z</updated>
+  <updated>2022-07-10T17:31:38.619Z</updated>
   <id>https://shenlingyu.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法示例</title>
+    <link href="https://shenlingyu.cn/2022/07/11/Markdown%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"/>
+    <id>https://shenlingyu.cn/2022/07/11/Markdown%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</id>
+    <published>2022-07-10T17:28:06.000Z</published>
+    <updated>2022-07-10T17:31:38.619Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>Markdown是一种轻量级标记语言，通常被用于编写文档以及个人博客，它的语法相对比较简单但是笔者注意到即使他的语法很简单但如果不了解一些注意事项还是会产生一些莫名的错误。特别是对于零基础搭建博客想自己写一些文章的同学，这里笔者对Markdown的基本语法和注意事项进行一些梳理,示范和总结，一来可以给一些需要的同学提供帮助，二来方便笔者的知识总结和收纳。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;Markdown是一种轻量级标记语言，通常被用于编写文档以及个人博客，它的语法相对比较简单但是笔者注意到即使他的语法很简单但如果不了解一些注意事项还是会产生一些莫名的错误。特别是对于零基础搭建博客想自己写一些文章的同学，这里笔者对Markdown的基本语法和注意事项进行一些梳理,示范和总结，一来可以给一些需要的同学提供帮助，二来方便笔者的知识总结和收纳。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Markdown基本语法" scheme="https://shenlingyu.cn/categories/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    
+    
+    <category term="Markdown" scheme="https://shenlingyu.cn/tags/Markdown/"/>
+    
+    <category term="blog" scheme="https://shenlingyu.cn/tags/blog/"/>
+    
+    <category term="零基础" scheme="https://shenlingyu.cn/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>从零开始的个人博客建设</title>
@@ -33,11 +58,11 @@
     <category term="个人博客建立" scheme="https://shenlingyu.cn/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%8B/"/>
     
     
-    <category term="hexo" scheme="https://shenlingyu.cn/tags/hexo/"/>
-    
     <category term="blog" scheme="https://shenlingyu.cn/tags/blog/"/>
     
     <category term="零基础" scheme="https://shenlingyu.cn/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="hexo" scheme="https://shenlingyu.cn/tags/hexo/"/>
     
   </entry>
   
