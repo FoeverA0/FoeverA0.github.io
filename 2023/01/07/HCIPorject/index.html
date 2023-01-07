@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>HCI project hands-on - SHEN Lingyu&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="SHEN Lingyu&#039;s Blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="SHEN Lingyu&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Many hardcore coders look down on user-interface designers because that work is not ‘really’ computing. Apart from a general lack of respect, such assumptions are downright false."><meta property="og:type" content="blog"><meta property="og:title" content="HCI project hands-on"><meta property="og:url" content="http://example.com/2023/01/07/HCIPorject/"><meta property="og:site_name" content="SHEN Lingyu&#039;s Blog"><meta property="og:description" content="Many hardcore coders look down on user-interface designers because that work is not ‘really’ computing. Apart from a general lack of respect, such assumptions are downright false."><meta property="og:locale" content="en_US"><meta property="og:image" content="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p2.png"><meta property="article:published_time" content="2023-01-07T06:02:33.000Z"><meta property="article:modified_time" content="2023-01-07T06:34:32.661Z"><meta property="article:author" content="Shen Lingyu"><meta property="article:tag" content="Figma"><meta property="article:tag" content="HCI"><meta property="article:tag" content="Project"><meta property="article:tag" content="Pseudocodice"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p2.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/01/07/HCIPorject/"},"headline":"HCI project hands-on","image":["https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p2.png"],"datePublished":"2023-01-07T06:02:33.000Z","dateModified":"2023-01-07T06:34:32.661Z","author":{"@type":"Person","name":"Shen Lingyu"},"publisher":{"@type":"Organization","name":"SHEN Lingyu's Blog","logo":{"@type":"ImageObject","url":{"text":"SHEN Lingyu"}}},"description":"Many hardcore coders look down on user-interface designers because that work is not ‘really’ computing. Apart from a general lack of respect, such assumptions are downright false."}</script><link rel="canonical" href="http://example.com/2023/01/07/HCIPorject/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const $tabMenu = document.querySelector(`a[href="${location.hash}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(location.hash);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">SHEN Lingyu</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/FoeverA0/FoeverA0.github.io"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p2.png" alt="HCI project hands-on"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-01-07T06:02:33.000Z" title="1/7/2023, 2:02:33 PM">2023-01-07</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-01-07T06:34:32.661Z" title="1/7/2023, 2:34:32 PM">2023-01-07</time></span><span class="level-item"><a class="link-muted" href="/categories/Project/">Project</a></span><span class="level-item">19 minutes read (About 2869 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">HCI project hands-on</h1><div class="content"><p>Many hardcore coders look down on user-interface designers because that work is not ‘really’ computing. Apart from a general lack of respect, such assumptions are downright false. </p>
+<span id="more"></span>
+
+<p>The current project is to make programmer aware that a good usability experience starts with proper coding. A faulty machine is a nuisance irrespective of the slick interface, the VR goggles, or the high-resolution touch screens. The second thing you should become aware of is that coding the user interface takes usually ⅓rd of your programming effort and also this code should be flawless. Otherwise, dissatisfied clients. And you out of business pretty quickly.</p>
+<p>People rely on you and your logics when they use your application in a daily situation. They are focused on their tasks (e.g., open-heart surgery, flying an airplane, teaching autistic children) and not on your code. Hick-ups in your work harm their performance. So you better create excellent user interfaces and should not treat interfaces as a frivolous byproduct.</p>
+<p>To show you what people may use my code for, I design this HCI project that helps to learn primary school children to rehearse the multiplication tables (1 x 2 &#x3D; 2, 2 x 2 &#x3D; 4, etc.):</p>
+<h1 id="Tecnology-routes"><a href="#Tecnology-routes" class="headerlink" title="Tecnology routes"></a>Tecnology routes</h1><h2 id="First-Stage"><a href="#First-Stage" class="headerlink" title="First Stage"></a>First Stage</h2><h3 id="Find-stakeholders"><a href="#Find-stakeholders" class="headerlink" title="Find stakeholders"></a>Find stakeholders</h3><p>I create a user interface for children. Make a list of the tasks they have to perform when learning the multiplication tables. What do children need to practice? The interface could be a robot but does not have to be. It could also be a game, or… whatever helps them to learn. I look what is out there on the Internet and design something of my own. Go to the stakeholders (children, parents, teachers) and interview them (at least one of each): what do they need, what would they prefer? You can do the interviews online. Show them examples (a real app, a ppt with pictures, a cardboard mock-up) and let them reflect on it.</p>
+<h4 id="User-requirements-children"><a href="#User-requirements-children" class="headerlink" title="User requirements (children):"></a>User requirements (children):</h4><p>I interviewed my twin cousins, who had just learned multiplication at a young age. First, they told me that the teacher taught multiplication tables by having them memorize and then write them silently at school. Those who couldn’t do it could be punished with detention. “ We hated memorizing the multiplication tables, it was hard and boring to memorize so many multiplication equations at once, but we hated detention even more because then we couldn’t go home and watch TV.”</p>
+<p>I asked them if I could create an interface for them, maybe a game or anything that would help them learn, and what kind of interface they would expect. They first thought of a game they could play with two people, which was a great idea as they both do everything together all the time. When I asked if they preferred a co-op type or a competitive two-player game, the ladies thought that a competitive game would be more engaging for them.” But mum won’t let us play on the computer. Can we play your game on our mum’s phones?”</p>
+<p>So, the ladies’ requests were: a two-player competitive mobile game that would help them learn multiplication. Secondly, the game would help them memorize the multiplication tables so they could pass their school tests and get the ladies home on time to watch TV. Finally, it had to be fun enough to keep the ladies engaged.</p>
+<h4 id="My-design"><a href="#My-design" class="headerlink" title="My design"></a>My design</h4><p>I have designed a simple two-player mobile game for children.</p>
+<p>In the original design, the screen was split in half down the middle, and the two players had to sit opposite to play. The question is displayed in the middle, and the options are underneath the question. The player had to choose the correct one of the three options.</p>
+<p>I implemented a rudimentary game interface for this idea first to ask if it met the children’s needs. Expectedly the children told me that the interface was too simple and ugly for them to engage with, but happily, they approved of the game format. They were looking forward to sitting on either end of the phone to decide on the winner, but the rudimentary model could not also count the score and announce the winner. Finally, the children had an interesting request for the time and power status bar to be displayed correctly during the game. Although I told them I could add a time module to the interface if they needed to see the time, they still felt the status bar was necessary as they were used to seeing the time there.</p>
+<p><img src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/project.png" alt="Original design"></p>
+<p>After re-analyzing the children’s needs, I redesigned the game’s interface, adding some cartoon characters and more natural background color to keep the children engaged. The status bar and winning mechanism was also implemented, with incorrect answers turning the small box at the bottom of the screen red and not rewarding the player with a score, and correct answers turning green and rewarding the player with ten points. The team with the highest score after answering all five questions will be declared the winner of the game.</p>
+<p>Children can gradually memorize the multiplication formulae repeatedly in competitions, as the questions generate two random numbers from 1-10 to multiply together, and only by familiarising themselves with all the multiplication formulae in the multiplication tables can they increase the player’s probability of winning. This satisfies the children’s requirements.</p>
+<p><img src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p2.png"><br><img src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p3.png"></p>
+<h5 id="Technical-specifications"><a href="#Technical-specifications" class="headerlink" title="Technical specifications:"></a>Technical specifications:</h5><p>The UI interface is designed and implemented in Figma, the core code is written in python and the game mechanics code is written in pseudo-code.</p>
+<p>My implementation):</p>
+<p>class GameInterface(){</p>
+<p>var user1index :&#x3D; 1</p>
+<p>var user2index :&#x3D; 1</p>
+<p>​    var user1score :&#x3D; 0</p>
+<p>​    var user2score :&#x3D; 0</p>
+<p>var num1, num2, answer, option1, option2:integer</p>
+<p>var user2num1, user2num2, user2answer, user2option1, user2option2:integer</p>
+<p>​    var user1button &#x3D; [buttonimage1, buttonimage2, buttonimage3]</p>
+<p>var user2button &#x3D; [buttonimage4, buttonimage5, buttonimage6]</p>
+<p>​    var background &#x3D; backgroundimage</p>
+<p>Function selectAnswer(){</p>
+<p>  Index :&#x3D; index + 1</p>
+<p>  If the correct option for user 1 is pressed:</p>
+<p>​     Show user1 correct image</p>
+<p>Show user1 “+10!” image</p>
+<p>​     user1score :&#x3D; user1score + 10</p>
+<p>  else if the wrong option for user 1 is pressed:</p>
+<p>​     Show user1 incorrect image</p>
+<p>Show user1 “+0!” image</p>
+<p>Store num1*num2&#x3D;answer in errorBook</p>
+<p>  if the correct option for user 2 is pressed:</p>
+<p>​     Show user2 correct image</p>
+<p>Show user2 “+10!” image</p>
+<p>​     user2score :&#x3D; user2score + 10</p>
+<p>  else if the wrong option for user 2 is pressed:</p>
+<p>​     Show user2 incorrect image</p>
+<p>Show user2 “+0!” image</p>
+<p>Store num1*num2&#x3D;answer in errorBook</p>
+<p>​    If the user1index and user2index greater than or equal to five:</p>
+<p>​       If the user1score greater than user2score:</p>
+<p>​           Hiden user1button</p>
+<p>​           Show user1 “YOU WIN!!” image</p>
+<p>Show user1 “REPLAY”image</p>
+<p>Read user1totlescore from user1totlescore</p>
+<p>user1totlescore:&#x3D; user1totlescore + user1score</p>
+<p>Store user1totlescore in user1totlescore</p>
+<p>Store “user1 win” in gameResult</p>
+<p>​       Else if the user1socre smaller than user2score:</p>
+<p>​           Hiden user2button</p>
+<p>​           Show user2 “YOU WIN!!” image</p>
+<p>Show user2 “REPLAY”button</p>
+<p>Read user2totlescore from user2totlescore</p>
+<p>user2totlescore:&#x3D; user2totlescore + user1score</p>
+<p>Store user2totlescore in user2totlescore</p>
+<p>Store “user2 win” in gameResult</p>
+<p>​       Else:</p>
+<p>​           Show new user1 random question</p>
+<p>​           Show new user2 random question</p>
+<p>​    if user1index smaller than five:</p>
+<p>​       Show new user1 random question</p>
+<p>​    if user2index smaller than five:</p>
+<p>​       Show new user2 random question</p>
+<p>​    If the “REPLAY”button be pressed:</p>
+<p>​       Run replay()</p>
+<p>}</p>
+<p>Function replay(){</p>
+<p> var user1index :&#x3D; 1</p>
+<p>var user2index :&#x3D; 1</p>
+<p>​       var user1score :&#x3D; 0</p>
+<p>​       var user2score :&#x3D; 0</p>
+<p>​       Show new user1 random question</p>
+<p>​       Show new user2 random question</p>
+<p>}</p>
+<p>}</p>
+<h4 id="User-requirements-children’s-parent"><a href="#User-requirements-children’s-parent" class="headerlink" title="User requirements (children’s parent):"></a>User requirements (children’s parent):</h4><p>The children’s parent, my aunt, wanted to view the results of last three game in her interface so that she could see which children needed to improve their multiplication table skills and which ones deserved praise. </p>
+<h5 id="My-design-1"><a href="#My-design-1" class="headerlink" title="My design:"></a>My design:</h5><p>Three green squares represent the last three games for victory or red squares for defeated, not only that but also the total game score and win rate. This fulfills the parents’ requirements. </p>
+<p><img src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p4.png"></p>
+<h5 id="Technical-specifications-1"><a href="#Technical-specifications-1" class="headerlink" title="Technical specifications:"></a>Technical specifications:</h5><p>The UI interface is designed and implemented in Figma, the core code is written in python and the game mechanics code is written in pseudo-code.</p>
+<p>Image source: <a target="_blank" rel="noopener" href="https://store.line.me/stickershop/product/20102/zh-Hant">https://store.line.me/stickershop/product/20102/zh-Hant</a></p>
+<h5 id="My-implementation-prototype-application-x2F-code"><a href="#My-implementation-prototype-application-x2F-code" class="headerlink" title="My implementation (prototype application&#x2F;code):"></a>My implementation (prototype application&#x2F;code):</h5><p> Class parentInterface(){</p>
+<p>​    Var backGround :&#x3D; ParentInterfaceBackGroundImage</p>
+<p>​    Var user1name :&#x3D; “PLAYER1”</p>
+<p>​    Var user2name :&#x3D; ”PLAYER2”</p>
+<p>​    Read user1totlescore from user2totlescore</p>
+<p>Read user2totlescore from user2totlescore</p>
+<p>Read gameSessions from gameResult</p>
+<p>Read user1winTimes from gameResult</p>
+<p>Read user2wintimes from gameResult</p>
+<p>user1button &#x3D; {hide,hide,hide}</p>
+<p>user2button &#x3D; {hide,hide,hide}</p>
+<p>Function lastThreeResult(){</p>
+<p>j :&#x3D; 0</p>
+<p> For I :&#x3D; 0 to 3:</p>
+<p>​     If user1 win:</p>
+<p>​        user1button[j] :&#x3D; green</p>
+<p>user2button[j] :&#x3D; red</p>
+<p>​     else:</p>
+<p>​        ser1button[j] :&#x3D; red</p>
+<p>user2button[j] :&#x3D; green</p>
+<p>​           j :&#x3D; j + 1</p>
+<p>}</p>
+<p>Function showTotelScore(){</p>
+<p> Show user1totlescore</p>
+<p> Show user2totlescore</p>
+<p>}</p>
+<p>Function showWinRate(){</p>
+<p> user1WinRate :&#x3D; user1WinTimes&#x2F;gameSessions</p>
+<p> user2WinRate :&#x3D; user2WinTimes&#x2F;gameSessions</p>
+<p> Show user1WinRate</p>
+<p> Show user2WinRate</p>
+<p>}</p>
+<p>Function enterPlayer1Name(){</p>
+<p> User1name :&#x3D; user input</p>
+<p> Hiden user1“(ENTER NAME)” image</p>
+<p>}</p>
+<p>Function enterPlayer2Name(){</p>
+<p> User2name :&#x3D; user input</p>
+<p> Hiden user2“(ENTER NAME)” image</p>
+<p>}</p>
+<p>}</p>
+<h4 id="User-requirements-children’s-teacher"><a href="#User-requirements-children’s-teacher" class="headerlink" title="User requirements (children’s teacher):"></a>User requirements (children’s teacher):</h4><p>The children’s teacher said it would be helpful if the interface could generate an error book to save the questions on which the children often make mistakes so that he can be more aware of which questions are prone to errors. </p>
+<h5 id="My-design-2"><a href="#My-design-2" class="headerlink" title="My design:"></a>My design:</h5><p>On the teacher’s screen, the game saves the children’s incorrect questions and displays the top six in order of the number of errors. The top three questions with the most mistakes will, in turn, become more significant and redder, giving excellent responses to the teacher on the questions where the children are most likely to make mistakes.</p>
+<p><img src="https://raw.githubusercontent.com/FoeverA0/Diagrams/master/p5.png"></p>
+<h5 id="Technical-specifications-2"><a href="#Technical-specifications-2" class="headerlink" title="Technical specifications:"></a>Technical specifications:</h5><p>The UI interface is designed and implemented in Figma, the core code is written in python and the game mechanics code is written in pseudo-code.Image source: <a target="_blank" rel="noopener" href="https://store.line.me/stickershop/product/20102/zh-Hant">https://store.line.me/stickershop/product/20102/zh-Hant</a></p>
+<h5 id="My-implementation-prototype-application-x2F-code-1"><a href="#My-implementation-prototype-application-x2F-code-1" class="headerlink" title="My implementation (prototype application&#x2F;code):"></a>My implementation (prototype application&#x2F;code):</h5><p> Class teacherInterface(){</p>
+<p>​    Var backGround :&#x3D; teacherInterfaceBackGroundImage</p>
+<p>​    Function readErrorHistoryTimes(){</p>
+<p>Read errorHistrory from errorBook</p>
+<p>​        Var errorHistroryTimes[length[errorHistrory]]</p>
+<p>​        For i :&#x3D; 0 to length[errorHistrory]:</p>
+<p>​           For j :&#x3D; 0 to length[errorHistrory]:</p>
+<p>​               If errorHistory[i] is equivalent to errorHistory[j]:</p>
+<p>​                  errorHistoryTimes[j] :&#x3D; errorHistoryTimes[j] + 1</p>
+<p>​               else:</p>
+<p>​                  errorHistoryTimes[i] :&#x3D; 1</p>
+<p>}</p>
+<p>Function sort(errorHistory , errorHistoryTimes){</p>
+<p>Var top1ErrorTimes, top2ErrorTimes, top3ErrorTimes, top4ErrorTimes, top5ErrorTimes, topErrorTimes 6 :&#x3D; 0</p>
+<p> Var top1str, top2str, top3str, top4str, top5str, top6str</p>
+<p> For i :&#x3D; 0 to length[errorHistoryTimes]:</p>
+<p>​     If top1 greater than errorHistoryTimes[i]:</p>
+<p>​        If top2 greater than errorHistoryTimes[i]:</p>
+<p>​            If top3 greater than errorHistoryTimes[i]:</p>
+<p>​               If top4 greater than errorHistoryTimes[i]:</p>
+<p>​                   If top5 greater than errorHistoryTimes[i]:</p>
+<p>​                      If top6 greater than errorHistoryTimes[i]:</p>
+<p>​     Else:</p>
+<p>​        top1ErrorTimes :&#x3D; errorHistoryTimes[i]</p>
+<p>top1str :&#x3D; errorHistory[i]</p>
+<p>​        else:</p>
+<p>​            top2ErrorTimes :&#x3D; errorHistoryTimes[i]</p>
+<p> top2str :&#x3D; errorHistory[i]</p>
+<p>​            else:</p>
+<p>​               top3ErrorTimes:&#x3D; errorHistoryTimes[i]</p>
+<p>​    top3str :&#x3D; errorHistory[i]</p>
+<p>​               else:</p>
+<p>​                   top4ErrorTimes :&#x3D; errorHistoryTimes[i]</p>
+<p>​        top4str :&#x3D; errorHistory[i]</p>
+<p>​                   else:</p>
+<p>​                      top5ErrorTimes :&#x3D; errorHistoryTimes[i]</p>
+<p>​           top5str :&#x3D; errorHistory[i]</p>
+<p>​                      else:</p>
+<p>​                          top6ErrorTimes:&#x3D; errorHistoryTimes[i]</p>
+<p>​               top6str :&#x3D; errorHistory[i]   </p>
+<p> show top1str,top1ErrorTimes</p>
+<p>show top2str,top2ErrorTimes</p>
+<p>show top3str,top3ErrorTimes</p>
+<p>show top4str,top4ErrorTimes</p>
+<p>show top5str,top5ErrorTimes</p>
+<p>show top6str,top6ErrorTimes</p>
+<p>}</p>
+<p>}</p>
+<h2 id="Count"><a href="#Count" class="headerlink" title="Count"></a>Count</h2><p> Now count all the lines of code I used to create an interface for my user groups. Express in percentages: How much programming was dedicated to the core code of multiplication and how much to the various interfaces. </p>
+<p>The core code is  <strong>4</strong> lines long, which is <strong>2.42</strong>% of the total code.</p>
+<p>Interface 1 code is <strong>65</strong> lines long, which is <strong>39.39</strong>%</p>
+<p>Interface 2 code is <strong>41</strong> lines long, which is <strong>25.85</strong>%</p>
+<p>Interface 3 code is <strong>55</strong> lines long, which is <strong>33.33</strong>%</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><ol>
+<li><p>Coding the user interface is tougher than programming the core code, this is because the needs of new users can often have a significant impact when writing interactions. For example, in this assignment, when I asked the teachers and parents for requirements after completing the children’s game interface, they needed to be able to view the error book or be able to view the results of the game. It was necessary to write a new interface for new users and add a module to the completed children’s game interface to store data that new users would like to see, such as the scores the children got or the mistakes the children often made, without any changes to the core code. As you can imagine, as the number of users increases, the new needs of new users will create a significant amount of programming work for HCI compared to the core code.</p>
+</li>
+<li><p>Programmers can use time complexity, package size, algorithm runtime, and console output to ensure that their core code runs correctly and efficiently and produces the expected results when coding the core. However, in HCI programming, the programmer often does not know if the result is what the user wishes, as the user often does not know what they expect. It is challenging to ensure that the designed interface is efficient. The need described to me by the children’s parents in this assignment was vague and abstract: “I want to know how well the children are doing and how well they have mastered the multiplication tables.” How to measure “how well” and “mastery” and display them on the interface is much more complex than printing the multiplication on the screen. Programmers often have to stop and think, “is this what the user wants.”</p>
+</li>
+<li><p>Secondly, what makes HCI programming more challenging than core code programming is that errors are difficult to detect and correct. For example, in the second question of this assignment, to find a bug in the code of the topic, I could first try to run the code by copying the string into the compiler. The compiler would immediately report the error to me after a failed compilation, e.g., the return type of the function in line 8 is not int, a semicolon is missing at the end of line 10, etc. Even after the compilation had produced the output, I could determine the for loop condition in the program by looking at the output. Even when it compiles and produces output, I can tell by looking at the output that there may be an error in the for loop condition, as the output produced is not what was expected.In summary, the compiler and programmer’s judgment can find and correct most errors in core code programming. However, this was not the case in HCI programming, and it was not until a final check in this assignment that we discovered that the scores in the game screen designed for the children did not display appropriately whether the children answered the questions correctly or incorrectly and that the scores did not change, but remained at 0. Neither the children nor the parents nor even I noticed this problem until we were trying to implement the parent’s attempt to find out whether the children. The problem was only discovered when a new score-saving function was added to the then completed game screen when parents wanted to know if their children were “doing well,” as the green or red squares at the ends of the screen also represented wins and losses so that users may have inadvertently overlooked the problem. In any case, since the compiler cannot detect such invisible bugs, HCI programmers may not notice any errors in their design. So compared to core code programming, which can be seen with a precise machine and has accurately described output for reference, HCI programming efforts suffer from errors and flaws that are difficult to notice.</p>
+</li>
+<li><p>Finally, the workload of HCI programming is not less than that of core code. Before this assignment, I also thought that the work of HCI programming should be easy and romantic. Still, after interviewing users repeatedly, I found out that the work of HCI programming is also very complex. For example, at the beginning of the design process, there was a lot of interviewing of users to get their requirements, then analysis of their requirements to try to design an interface that would meet their needs, after which a lot of pseudo-code had to be written to implement the designed interface, which was much more complex than expected. Many of the designed interfaces had to be cut. User requirements had to be compromised, and the core code to generate the multiplication tables was even then. Even so, the core code for generating the multiplication tables was only two percent of the total code, which shows that the coding workload for HCI programming is heavier than for core programming.</p>
+</li>
+</ol>
+</div><div class="article-licensing box"><div class="licensing-title"><p>HCI project hands-on</p><p><a href="http://example.com/2023/01/07/HCIPorject/">http://example.com/2023/01/07/HCIPorject/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Shen Lingyu</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2023-01-07</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2023-01-07</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Figma/">Figma</a><a class="link-muted mr-2" rel="tag" href="/tags/HCI/">HCI</a><a class="link-muted mr-2" rel="tag" href="/tags/Project/">Project</a><a class="link-muted mr-2" rel="tag" href="/tags/Pseudocodice/">Pseudocodice</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2023/01/05/infoDay/"><span class="level-item">PolyU Undergraduate Info Day 2022 COMP student helper</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://media.licdn.com/dms/image/D5603AQG5kUmewMkZPQ/profile-displayphoto-shrink_200_200/0/1672817609662?e=1678320000&amp;v=beta&amp;t=aL6nmY5T0LtVVTWMFeUKK_9lXss9AlS9PnS3TSuiqJc" alt="SHEN Lingyu"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">SHEN Lingyu</p><p class="is-size-6 is-block">Sunny Rain</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>HongKong</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">9</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">4</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">22</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/FoeverA0" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/FoeverA0"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/3unnyrain/"><i class="fab fa-instagram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Linkedin" href="https://www.linkedin.com/in/shenlingyu/"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Employment-Record/"><span class="level-start"><span class="level-item">Employment Record</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Photography/"><span class="level-start"><span class="level-item">Photography</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Project/"><span class="level-start"><span class="level-item">Project</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Volunteer-Experience/"><span class="level-start"><span class="level-item">Volunteer Experience</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-01-07T06:02:33.000Z">2023-01-07</time></p><p class="title"><a href="/2023/01/07/HCIPorject/">HCI project hands-on</a></p><p class="categories"><a href="/categories/Project/">Project</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-01-05T13:34:45.000Z">2023-01-05</time></p><p class="title"><a href="/2023/01/05/infoDay/">PolyU Undergraduate Info Day 2022 COMP student helper</a></p><p class="categories"><a href="/categories/Volunteer-Experience/">Volunteer Experience</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-01-05T13:32:03.000Z">2023-01-05</time></p><p class="title"><a href="/2023/01/05/guojingjing/">Volunteers for the PolyU 85th Anniversary Public Lecture Series</a></p><p class="categories"><a href="/categories/Volunteer-Experience/">Volunteer Experience</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-01-05T13:31:02.000Z">2023-01-05</time></p><p class="title"><a href="/2023/01/05/pingpang/">Volunteer Umpire in 2022 Poly CSSA Table Tennis Competition</a></p><p class="categories"><a href="/categories/Volunteer-Experience/">Volunteer Experience</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-01-05T13:30:48.000Z">2023-01-05</time></p><p class="title"><a href="/2023/01/05/Kongzi/">Volunteer in 6th Confucius Institute Day</a></p><p class="categories"><a href="/categories/Volunteer-Experience/">Volunteer Experience</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2023/01/"><span class="level-start"><span class="level-item">January 2023</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Campus-Experience/"><span class="tag">Campus Experience</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Cheung-Chau/"><span class="tag">Cheung Chau</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Confucius-Institute/"><span class="tag">Confucius Institute</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Department-of-Computing/"><span class="tag">Department of Computing</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Educational-technology/"><span class="tag">Educational technology</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Figma/"><span class="tag">Figma</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/HCI/"><span class="tag">HCI</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Multi-thread/"><span class="tag">Multi-thread</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Pedagogy/"><span class="tag">Pedagogy</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Photography/"><span class="tag">Photography</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PolyU/"><span class="tag">PolyU</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PolyU-CSSA/"><span class="tag">PolyU CSSA</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Project/"><span class="tag">Project</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Pseudocodice/"><span class="tag">Pseudocodice</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Students-Assistants/"><span class="tag">Students Assistants</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/TALE-2022/"><span class="tag">TALE 2022</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Tai-Mo-Shan/"><span class="tag">Tai Mo Shan</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Travel/"><span class="tag">Travel</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Volunteer/"><span class="tag">Volunteer</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Web-server/"><span class="tag">Web server</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Wireshark/"><span class="tag">Wireshark</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">SHEN Lingyu</a><p class="is-size-7"><span>&copy; 2023 Shen Lingyu</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/FoeverA0/FoeverA0.github.io"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
